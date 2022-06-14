@@ -13,7 +13,7 @@ const calcularDiferenca = () => {
     minutos: 0,
     segundos: 0,
   };
-
+//apagar depois
   resultado.dias = Math.floor(diferenca / 86400);
   diferenca -= resultado.dias * 86400;
 
